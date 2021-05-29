@@ -6,4 +6,9 @@
 
 body{
 font-family: 'Oswald', sans-serif;
+font-size: 100%;
+}
+
+div, section, span, ul, li, a, header{
+  box-sizing: border-box;
 }
