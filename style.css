@@ -3,12 +3,37 @@
 // #E8E8E8 //
 // #343A40 //
 
+@font-face {
+font-family: Oswald;
+src:url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+}
 
-body{
+body {
 font-family: 'Oswald', sans-serif;
 font-size: 100%;
+display: flex;
 }
 
 div, section, span, ul, li, a, header{
   box-sizing: border-box;
 }
+
+nav ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+  align-items: center;
+  }
+
+
+
+
+header
