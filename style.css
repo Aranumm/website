@@ -12,6 +12,7 @@ body {
 font-family: 'Oswald', sans-serif;
 font-size: 100%;
 display: flex;
+background-color: #E8E8E8;
 }
 
 div, section, span, ul, li, a, header{
@@ -22,6 +23,7 @@ nav ul  {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   font-size: 25px;
 }
 
@@ -33,7 +35,22 @@ nav{
   align-items: center;
   }
 
+  li {
+    display: inline;
+    float: left;
+    padding: 8px;
+  }
 
+  li a{
+    display: block;
+    color:#4B4B4B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
+  li a:hover{
+    color: #ED1C24;
+  }
 
 header
