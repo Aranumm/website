@@ -30,6 +30,7 @@ nav ul {
 
 #basenav{
   width: 100%;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
@@ -57,17 +58,35 @@ li a{
   }
 
  section {
-  width: 100%
-
+  display:block;
+  width: 100%;
 }
 
 #logo{
-  width: 200x
+  width: 200px;
   height: 100px;
-  background-image: image();
+  padding: -100px;
+  background-image: url(img/logo_big.png);
   background-repeat: no-repeat;
 }
 
 header {
+
+}
+
+#home{
+
+}
+
+#about_me{
+  display: flex;
+
+}
+
+#cases{
+
+}
+
+#contact{
 
 }
