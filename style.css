@@ -19,16 +19,16 @@ div, section, span, ul, li, a, header{
   box-sizing: border-box;
 }
 
-nav ul  {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 30px;
+  font-size: 25px;
   margin-left: auto;
 }
 
-nav{
+#basenav{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -55,6 +55,18 @@ li a{
     color: #ED1C24;
     text-decoration: underline;
   }
+
+ section {
+  width: 100%
+
+}
+
+#logo{
+  width: 200x
+  height: 100px;
+  background-image: image();
+  background-repeat: no-repeat;
+}
 
 header {
 
