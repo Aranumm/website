@@ -64,7 +64,6 @@ li a{
 #logo{
   width: 200px;
   height: 100px;
-  padding: -100px;
   background-image: url(img/logo_big.png);
   background-repeat: no-repeat;
 }
@@ -120,7 +119,7 @@ grid-auto-rows: 2fr 0fr;
 input[type=text], select, textarea{
   width: 100%;
   padding: 15px;
-  border: 2px solid ##E8E8E8;
+  border: 2px solid #E8E8E8;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -132,11 +131,12 @@ input[type=submit]:hover {
 .introtext{
   font-size: 20px;
   color: #343A40;
+  line-height: 30px;
 }
 
 footer{
   height: 250px;
-  background-color: #343A40;
+  background-color: #ED1C24;
   display: flex;
   justify-content: center;
   padding: 0 110px;
@@ -150,4 +150,8 @@ footer_whole{
   justify-content: space-between;
   align-items: center;
   align-content: center;
+}
+
+.footer_text{
+
 }
