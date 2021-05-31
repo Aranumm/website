@@ -94,6 +94,19 @@ header {
 clear: both;
 }
 
-#intro {
-  
+#frontpage{
+  width: 1700px;
+  height: 1000px;
+  position: relative;
+
+}
+.welcome{
+  position: relative;
+  font-size: 40px;
+  color: #ED1C24;
+  margin: 110px;
+}
+
+about_me_text{
+
 }
