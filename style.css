@@ -96,9 +96,9 @@ clear: both;
 
 #frontpage{
   width: 1700px;
-  height: 1000px;
+  height: 500px;
   position: relative;
-
+  padding: 0px 100px;
 }
 .welcome{
   position: relative;
@@ -108,5 +108,23 @@ clear: both;
 }
 
 about_me_text{
+width: 1490px;
+height: auto;
+font-size: 20px;
+display: grid;
+grid-template-columns: 2fr 0fr;
+grid-auto-rows: 2fr 0fr;
 
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 15px;
+  border: 2px solid ##E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #ED1C24;
 }
