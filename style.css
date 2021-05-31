@@ -128,3 +128,8 @@ input[type=text], select, textarea{
 input[type=submit]:hover {
   background-color: #ED1C24;
 }
+
+.introtext{
+  font-size: 20px;
+  color: #343A40;
+}
